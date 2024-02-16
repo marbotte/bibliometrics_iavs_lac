@@ -1,0 +1,15 @@
+---
+title: "Meeting information"
+lang: "en_US"
+description: "General information about the meetings"
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    pandoc_args: ["--number-sections"]
+---
+
+# Meeting 1: February 19th, 10am Colombia time
+
+In this first meeting we will present the project and start presenting the methodological decisions we need to take.
+

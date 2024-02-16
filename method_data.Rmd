@@ -1,0 +1,11 @@
+---
+title: "Methodology: data"
+lang: "en_US"
+description: "Information about the available and potential data sources"
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    pandoc_args: ["--number-sections"]
+---
+

@@ -6,15 +6,47 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T11:46:15-05:00"
+      "last_modified": "2024-02-16T12:54:37-05:00"
     },
     {
       "path": "index.html",
-      "title": "Latin America Bibliometrics",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Latin America Vegetation Science Bibliometrics",
+      "description": "Analysing the relationships of Latin America and the Caribbean scientists in vegetation science literature\n",
+      "author": [],
+      "contents": "\nIn this webpage, we will put information about:\nmeetings (notes and recordings)\nmethodology\nparticipants\nresults obtained\nGeneral information.\nThe Latin America and the Caribbean (LAC) section of the International\nAssociation for Vegetation Science got funding for an assistantship to work\non a bibliometric analysis paper. The idea is to analyze the collaboration\nnetworks based on co-authorships and citations extracted from vegetation\nscience journals (JVS, AVS, and VCS) to understand better the importance\nand specificities of our region (LAC) within global collaborations. Here\nis the proposed project. You may also look at the following conference\nvideos concerning this project :\nbottin_redesCollabLAC.mp4 (In spanish) presentation for the XXIX Reunión Argentina de Ecología\n139_CollaborationLatinAmerica.mp4 (In English) presentation for the 63rd Annual Symposium of the IAVS\n\n\n\n",
+      "last_modified": "2024-02-16T12:54:38-05:00"
+    },
+    {
+      "path": "meeting_information.html",
+      "title": "Meeting information",
+      "description": "General information about the meetings",
+      "author": [],
+      "contents": "\n\nContents\n1 Meeting 1: February 19th, 10am Colombia time\n\n1 Meeting 1: February 19th, 10am Colombia time\nIn this first meeting we will present the project and start presenting the methodological decisions we need to take.\n\n\n\n",
+      "last_modified": "2024-02-16T12:54:39-05:00"
+    },
+    {
+      "path": "method_analysis.html",
+      "title": "Methodology: analysis",
+      "description": "Information about the methodology possibilities",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T11:46:15-05:00"
+      "last_modified": "2024-02-16T12:54:40-05:00"
+    },
+    {
+      "path": "method_data.html",
+      "title": "Methodology: data",
+      "description": "Information about the available and potential data sources",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-02-16T12:54:40-05:00"
+    },
+    {
+      "path": "method_literature.html",
+      "title": "Literature",
+      "description": "General information about the interesting literature",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-02-16T12:54:41-05:00"
     }
   ],
   "collections": []

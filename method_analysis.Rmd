@@ -1,0 +1,11 @@
+---
+title: "Methodology: analysis"
+lang: "en_US"
+description: "Information about the methodology possibilities"
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    pandoc_args: ["--number-sections"]
+---
+

@@ -1,7 +1,7 @@
 ---
-title: "Latin America Bibliometrics"
+title: "Latin America Vegetation Science Bibliometrics"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Analysing the relationships of Latin America and the Caribbean scientists in vegetation science literature
 site: distill::distill_website
 ---
 
@@ -16,3 +16,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+In this webpage, we will put information about:
+
+1. meetings (notes and recordings)
+1. methodology
+1. participants
+1. results obtained
+
+# General information.
+
+The Latin America and the Caribbean (LAC) section of the International 
+Association for Vegetation Science got funding for an assistantship to work 
+on a bibliometric analysis paper. The idea is to analyze the collaboration 
+networks based on co-authorships and citations extracted from vegetation 
+science journals (JVS, AVS, and VCS) to understand better the importance 
+and specificities of our region (LAC) within global collaborations. [Here](https://docs.google.com/document/d/1kMpyrSqahfCV29O4j4FLLt9FbYCk6LIyRnAzwbfozPk/edit?usp=sharing)
+is the proposed project. You may also look at the following conference 
+videos concerning this project : 
+
+   * [bottin_redesCollabLAC.mp4](https://drive.google.com/file/d/1G2uyK9c2AD5zCJseZOXiRG8BAhiXjRF5/view?usp=sharing) (In spanish) presentation for the XXIX Reunión Argentina de Ecología 
+   * [139_CollaborationLatinAmerica.mp4](https://drive.google.com/file/d/1UK080xkpDKvqoANA6dhhs9smeqgYpwaO/view?usp=sharing) (In English) presentation for the 63rd Annual Symposium of the IAVS

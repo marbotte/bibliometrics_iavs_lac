@@ -1,0 +1,12 @@
+---
+title: "Literature"
+lang: "en_US"
+description: "General information about the interesting literature"
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    pandoc_args: ["--number-sections"]
+---
+
+
