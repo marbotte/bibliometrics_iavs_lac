@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:37-05:00"
+      "last_modified": "2024-02-17T18:49:56-05:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Analysing the relationships of Latin America and the Caribbean scientists in vegetation science literature\n",
       "author": [],
       "contents": "\nIn this webpage, we will put information about:\nmeetings (notes and recordings)\nmethodology\nparticipants\nresults obtained\nGeneral information.\nThe Latin America and the Caribbean (LAC) section of the International\nAssociation for Vegetation Science got funding for an assistantship to work\non a bibliometric analysis paper. The idea is to analyze the collaboration\nnetworks based on co-authorships and citations extracted from vegetation\nscience journals (JVS, AVS, and VCS) to understand better the importance\nand specificities of our region (LAC) within global collaborations. Here\nis the proposed project. You may also look at the following conference\nvideos concerning this project :\nbottin_redesCollabLAC.mp4 (In spanish) presentation for the XXIX Reunión Argentina de Ecología\n139_CollaborationLatinAmerica.mp4 (In English) presentation for the 63rd Annual Symposium of the IAVS\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:38-05:00"
+      "last_modified": "2024-02-17T18:49:57-05:00"
     },
     {
       "path": "meeting_information.html",
@@ -22,7 +22,7 @@
       "description": "General information about the meetings",
       "author": [],
       "contents": "\n\nContents\n1 Meeting 1: February 19th, 10am Colombia time\n\n1 Meeting 1: February 19th, 10am Colombia time\nIn this first meeting we will present the project and start presenting the methodological decisions we need to take.\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:39-05:00"
+      "last_modified": "2024-02-17T18:49:57-05:00"
     },
     {
       "path": "method_analysis.html",
@@ -30,15 +30,15 @@
       "description": "Information about the methodology possibilities",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:40-05:00"
+      "last_modified": "2024-02-17T18:49:58-05:00"
     },
     {
       "path": "method_data.html",
       "title": "Methodology: data",
-      "description": "Information about the available and potential data sources",
+      "description": "Information about the available and potential data types",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:40-05:00"
+      "contents": "\n\nContents\n1 Objectives\n1.1 Networks\n1.1.1 Objects (vertices)\n1.1.2 Relationships (links)\n1.1.3 Characteristics\n\n1.2 Latin America and the Caribbean specificity\n1.2.1 Ecosystem\n1.2.2 Location\n1.2.3 Semantic analyses\n\n\n\nWe already downloaded all the papers from Applied Vegetation Science, Journal of Vegetation Science y Vegetation Classification and Survey. You may find the ris files here.\nPlease note that this document is written without the input from all the collaborators of the papers, each and any of the description can (should) be discussed with all the group\n1 Objectives\nOur objectives for the paper is:\nAnalysing collaboration networks\nIdentifying LAC’s specificity\nEnhancing regional connectivity and supporting development initiative\n1.1 Networks\n1.1.1 Objects (vertices)\nFor the first objective (Analysing collaboration networks) we will mainly use the relationships (co-authorships, and potentially co-citation) at various levels:\nrelationships between authors\nrelationships between institutions\nIn terms of data, this presents some serious challenges. For the authors, we need to be able to recognize them in a distinct and unique form (which means that we need to create a unique key in the data to recognize the authors and attributes the paper to these unique authors over time).\nConcerning the institutions, there are various difficulties: one author might be in various institution, and an institution may have various character string describing it. I also believe that we should define clearly the level at which we want to define the institution. What I mean concretely is that we should use the name of the university instead of the name of the team or the laboratory. Of course, we would lose part of the academic structure doing so, but it seems a good trade-off between precision and simplicity. Moreover, I believe that the precise level we should look to is “name of the institute/university + city”. That means that we should, to take the example of the Universidad nacional de Colombia, separate the teams from the cities Medellin y Bogotá.\n1.1.2 Relationships (links)\nThe main relationship that we will use for creating occurrences and weights of relationships between the objects would be the number of papers in collaborations between authors and institutions.\nNote that there are other sorts of relationships which might be potentially used to analyse this kind of data: we have access to the citations that the papers use and so it is possible to make networks of citations/co-citations.\nHowever, I believe that we could in a first instance focus on the co-authorship.\n1.1.3 Characteristics\nOf course, one of the first characteristic that we will extract is the country/regions of the authors and institutions. Note that one of the difficulties will be that the authors tend to travel between countries in modern science. Therefore we will need to be careful while extracting this information.\nIn order to make a real and interesting analysis of the relationships between authors and institutions, it is important to consider some characteristics for the nodes and links of the network.\nThe order of the authors of a paper hold a great deal of information when we analyse the collaborations.\nThe particular importance of the first and last authors should be somehow taken into account, which means that we should extract this information in a clean and structured way!\nOne of the unsaid goal of the paper is to be able to measure some kind of unequity and/or post-colonial relationships between Europe/USA and Latin America.\nTherefore it is important that we all think about examples of these practices in science, and in which way this could be measurable in the database of paper information that we have access to.\nThe goal here, I believe, is not to try to find some practices to denunce and to find the data to prove it, but to document some relationships which are commonly described by researcher from our region with objective measurements!\nAny idea is welcome!\n1.2 Latin America and the Caribbean specificity\nIn order to describe the specificity of the vegetation science done in Latin America and the Caribbean, we need to use other types of information from the bibliographic database.\nOf course analysing this information may and should be done in association with the results obtained in the network analyses.\nHowever the data might be a little bit different in nature.\n1.2.1 Ecosystem\nIt is challenging, but defining, for each article from our database, what is the ecosystem category studied would be very useful.\nFirst it would allow us to determine what are the main interests of LAC scientists in terms of ecosystems, but also whether there is a difference between the types of ecosystems which appear interesting in different regions.\nMoreover, there is an expected result which may shed light on some difference between USA/Europe and LAC: there are much more researcher from USA/Europe studying the Latin American ecosystems than the opposite!\nThe main problem here is the great number of ecosystem classifications and the huge work that would represent the affectation of categories to all the studies made in the 3 journals.\nSo, we will need to find an operational way to extract this information from the database!\n1.2.2 Location\nIf we could obtain central coordinates or polygon for every study in our database, it would allow us to understand better the relationships to space which may or may not be different in Latin America and the rest of the world.\nIn a large part of the papers there is a “Location” indication in the abstract of the paper, so we will need to determine whether it is possible or not to transform this information in some kind of spatialized data (using the geocoding API from Google or similar tools)\n1.2.3 Semantic analyses\nIn the last years, many algorithms have been developed to be able to classify/analyse discourses.\nThe idea here would be to make an analysis of the corpus of abstracts/keywords/titles from the paper to then be able to determine whether there is a difference between paper with authors from Latin America, and the rest of the articles.\nI am no expert of these methods, so I hope someone will be able to explain better what would be the more efficient way to extract and analyse this data!\n\n\n\n",
+      "last_modified": "2024-02-17T18:49:59-05:00"
     },
     {
       "path": "method_literature.html",
@@ -46,7 +46,7 @@
       "description": "General information about the interesting literature",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-02-16T12:54:41-05:00"
+      "last_modified": "2024-02-17T18:49:59-05:00"
     }
   ],
   "collections": []

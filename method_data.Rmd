@@ -1,7 +1,7 @@
 ---
 title: "Methodology: data"
 lang: "en_US"
-description: "Information about the available and potential data sources"
+description: "Information about the available and potential data types"
 output:
   distill::distill_article:
     toc: true
@@ -9,3 +9,75 @@ output:
     pandoc_args: ["--number-sections"]
 ---
 
+We already downloaded all the papers from *Applied Vegetation Science*, *Journal of Vegetation Science* y *Vegetation Classification and Survey*. You may find the ris files [here](https://drive.google.com/drive/folders/1K6vtCjazBrgcy08bZFrZJy6gyTmcC33f?usp=drive_link).
+
+*Please note that this document is written without the input from all the collaborators of the papers, each and any of the description can (should) be discussed with all the group*
+
+# Objectives
+Our objectives for the paper is:
+
+1. Analysing collaboration networks
+1. Identifying LAC's specificity
+1. Enhancing regional connectivity and supporting development initiative
+
+## Networks
+
+### Objects (vertices)
+
+For the first objective (Analysing collaboration networks) we will mainly use the relationships (co-authorships, and potentially co-citation) at various levels:
+
+* relationships between authors
+* relationships between institutions
+
+In terms of data, this presents some serious challenges. For the authors, we need to be able to recognize them in a distinct and unique form (which means that we need to create a unique key in the data to recognize the authors and attributes the paper to these unique authors over time).
+Concerning the institutions, there are various difficulties: one author might be in various institution, and an institution may have various character string describing it. I also believe that we should define clearly the level at which we want to define the institution. What I mean concretely is that we should use the name of the university instead of the name of the team or the laboratory. Of course, we would lose part of the academic structure doing so, but it seems a good trade-off between precision and simplicity. Moreover, I believe that the precise level we should look to is "name of the institute/university + city". That means that we should, to take the example of the *Universidad nacional de Colombia*, separate the teams from the cities Medellin y Bogotá.
+
+### Relationships (links)
+
+The main relationship that we will use for creating occurrences and weights of relationships between the objects would be the number of papers in collaborations between authors and institutions.
+
+Note that there are other sorts of relationships which might be potentially used to analyse this kind of data: we have access to the citations that the papers use and so it is possible to make networks of citations/co-citations.
+However, I believe that we could in a first instance focus on the co-authorship.
+
+### Characteristics
+
+Of course, one of the first characteristic that we will extract is the country/regions of the authors and institutions. Note that one of the difficulties will be that the authors tend to travel between countries in modern science. Therefore we will need to be careful while extracting this information.
+
+In order to make a real and interesting analysis of the relationships between authors and institutions, it is important to consider some characteristics for the nodes and links of the network.
+The order of the authors of a paper hold a great deal of information when we analyse the collaborations. 
+The particular importance of the first and last authors should be somehow taken into account, which means that we should extract this information in a clean and structured way!
+
+One of the unsaid goal of the paper is to be able to measure some kind of unequity and/or post-colonial relationships between Europe/USA and Latin America.
+Therefore it is important that we all think about examples of these practices in science, and in which way this could be measurable in the database of paper information that we have access to.
+The goal here, I believe, is not to try to find some practices to denunce and to find the data to prove it, but to document some relationships which are commonly described by researcher from our region with objective measurements!
+Any idea is welcome!
+
+
+
+
+## Latin America and the Caribbean specificity
+
+In order to describe the specificity of the vegetation science done in Latin America and the Caribbean, we need to use other types of information from the bibliographic database. 
+Of course analysing this information may and should be done in association with the results obtained in the network analyses.
+However the data might be a little bit different in nature.
+
+### Ecosystem
+
+It is challenging, but defining, for each article from our database, what is the ecosystem category studied would be very useful.
+First it would allow us to determine what are the main interests of LAC scientists in terms of ecosystems, but also whether there is a difference between the types of ecosystems which appear interesting in different regions.
+Moreover, there is an expected result which may shed light on some difference between USA/Europe and LAC: there are much more researcher from USA/Europe studying the Latin American ecosystems than the opposite!
+
+The main problem here is the great number of ecosystem classifications and the huge work that would represent the affectation of categories to all the studies made in the 3 journals.
+So, we will need to find an operational way to extract this information from the database!
+
+### Location
+
+If we could obtain central coordinates or polygon for every study in our database, it would allow us to understand better the relationships to space which may or may not be different in Latin America and the rest of the world.
+In a large part of the papers there is a "Location" indication in the abstract of the paper, so we will need to determine whether it is possible or not to transform this information in some kind of spatialized data (using the geocoding API from Google or similar tools)
+
+
+### Semantic analyses
+
+In the last years, many algorithms have been developed to be able to classify/analyse discourses.
+The idea here would be to make an analysis of the corpus of abstracts/keywords/titles from the paper to then be able to determine whether there is a difference between paper with authors from Latin America, and the rest of the articles.
+I am no expert of these methods, so I hope someone will be able to explain better what would be the more efficient way to extract and analyse this data!
