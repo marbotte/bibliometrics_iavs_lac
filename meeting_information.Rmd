@@ -13,3 +13,11 @@ output:
 
 In this first meeting we will present the project and start presenting the methodological decisions we need to take.
 
+We will specifically speak about:
+
+* the objectives of the project: [project](https://docs.google.com/document/d/1kMpyrSqahfCV29O4j4FLLt9FbYCk6LIyRnAzwbfozPk/edit?usp=sharing)
+* the [authorship](./meeting_collaboration.html)
+* First phase: extraction of [data](./method_data.html)
+* Organization of the work ([working groups?](./meeting_collaboration.html))
+* On which [platform](./meeting_collaboration.html) will we communicate/collaborate?
+* you may put another topic on the table!!!

@@ -47,6 +47,9 @@ In order to make a real and interesting analysis of the relationships between au
 The order of the authors of a paper hold a great deal of information when we analyse the collaborations. 
 The particular importance of the first and last authors should be somehow taken into account, which means that we should extract this information in a clean and structured way!
 
+There is another characteristics that we might want to analyse later: the number of citations of the papers.
+It might shed light on the structure of Latin-American vegetation science, but I believe we don't need yet to focus on this, it is quite easy to extract and to analyse, so we will have it ready if some specific questions emerge concerning it!
+
 One of the unsaid goal of the paper is to be able to measure some kind of unequity and/or post-colonial relationships between Europe/USA and Latin America.
 Therefore it is important that we all think about examples of these practices in science, and in which way this could be measurable in the database of paper information that we have access to.
 The goal here, I believe, is not to try to find some practices to denunce and to find the data to prove it, but to document some relationships which are commonly described by researcher from our region with objective measurements!
@@ -81,3 +84,18 @@ In a large part of the papers there is a "Location" indication in the abstract o
 In the last years, many algorithms have been developed to be able to classify/analyse discourses.
 The idea here would be to make an analysis of the corpus of abstracts/keywords/titles from the paper to then be able to determine whether there is a difference between paper with authors from Latin America, and the rest of the articles.
 I am no expert of these methods, so I hope someone will be able to explain better what would be the more efficient way to extract and analyse this data!
+
+
+## Enhancing regional connectivity and development of the regional vegetation science
+
+I should say I have no idea how to treat this part yet in terms of data.
+I guess some of the answers will come with the results.
+
+However there might be some analyses by following the careers in terms of publications.
+
+*If you have any idea about some data which could help us tackle this specific objective, please let us know*
+
+
+# Other data
+
+*If you have any idea about some data which could help us resolve the objective of the paper, or any other question that might easily help improve our analyses, please tell!*

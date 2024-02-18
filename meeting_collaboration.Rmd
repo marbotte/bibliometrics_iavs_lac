@@ -1,0 +1,57 @@
+---
+title: "Our collaboration"
+lang: "en_US"
+description: "How will we collaborate in this project"
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    pandoc_args: ["--number-sections"]
+---
+
+
+# Authorship
+
+Our idea of the collaboration in this project is to try to have everybody participating actively in the extraction of the information (see [data](./method_data.html) section), the analyses and redaction of the manuscript.
+All the participants should, I think, be co-author of the paper.
+
+We might think about the order of the authors in the paper
+I personnally believe that some particularly active (or the researchers who participated from the beginning of the project) participants should appear in the first authors.
+We will see how the project goes, but for now, I (Marius Bottin) plan to coordinate the extraction and analyses, and to lead the redaction of the paper with Maria Daniela Diaz' help.
+If indeed we do that, I would respectfully claim the first author place and propose Maria Daniela as the second or last author.
+
+*Anyway, in order to avoid any frustration, please do not hesitate to tell what you think on the topic, and to propose debates on it, we will speak about that in the first meeting, and most probably in other ones as well. Please know that there is no taboo about it!*
+
+
+# Working groups?
+
+In order to work efficiently in the data extraction and analyse phase of the project, we might want to work in specialized working groups.
+
+I would propose these first groups to start the work:
+
+* Ecosystem classification
+* Extraction of affiliation information from the papers
+* Extraction of author information
+* Extraction of location information
+* Coordination of data
+* Semantic analyses
+* Literature search/review: We will need to have solid literature to speak about vegetation science, which we more or less already know, but also about the methodologies, bibliometrics and the social aspects of collaboration network and the structure of science collaboration (in particular the unequities between regions maybe!)
+
+The idea would be to have both people who can code (R and/or python) and people who can discuss the choices made in the codes in each group for which the task requires programming.
+
+When I first presented this idea to the group of researchers who started the project, one of the comment has been: 
+
+> Maybe all the themes related with the extraction of information can be integrated into: Resources for data gathering? 
+
+We need to discuss this, but having the groups separated may be useful since the tools we will use will not exactly be the same (for instance we might have to use geocoding API for the location extraction).
+
+
+We would need to find people to lead each of these groups, we will speak about that in the first meeting.
+
+# Communication and technical solutions
+
+There are many software and technical solutions for collaboration.
+However, we believe that keeping it simple would be the best strategy.
+That is why we thought that making a [Google chat](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj3gPyWqLWEAxVRn4QIHdAYDXIQjBB6BAgIEAE&url=https%3A%2F%2Fsupport.google.com%2Fchat%2Fanswer%2F7653601%3Fhl%3Den%26co%3DGENIE.Platform%253DAndroid&usg=AOvVaw21b6OmXbB8XnTYH50rrvdU&opi=89978449) group would be sufficient.
+
+Note that an alternative would be to use [Slack](https://slack.com/), please check on what seems better to you and let us know!

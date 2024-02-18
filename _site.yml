@@ -9,6 +9,8 @@ navbar:
       menu:
         - text: "information"
           href: "meeting_information.html"
+        - text: "Our collaboration"
+          href: "meeting_collaboration.html"
     - text: "Methodology"
       menu:
         - text: "Data"
