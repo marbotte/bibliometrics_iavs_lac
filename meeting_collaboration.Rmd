@@ -48,10 +48,19 @@ We need to discuss this, but having the groups separated may be useful since the
 
 We would need to find people to lead each of these groups, we will speak about that in the first meeting.
 
+
+***********************
+
+**Note**: During our first meeting (February 19th), we did not find consensus about the organization of working groups. Please do no hesitate to participate in this discussion in Slack!
+
+**********************
+
 # Communication and technical solutions
 
-There are many software and technical solutions for collaboration.
-However, we believe that keeping it simple would be the best strategy.
-That is why we thought that making a [Google chat](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj3gPyWqLWEAxVRn4QIHdAYDXIQjBB6BAgIEAE&url=https%3A%2F%2Fsupport.google.com%2Fchat%2Fanswer%2F7653601%3Fhl%3Den%26co%3DGENIE.Platform%253DAndroid&usg=AOvVaw21b6OmXbB8XnTYH50rrvdU&opi=89978449) group would be sufficient.
+In order to be able to organize the collaborative work and working groups, we will use [Slack](https://slack.com/).
 
-Note that an alternative would be to use [Slack](https://slack.com/), please check on what seems better to you and let us know!
+We created a Slack workspace named *VegLacBib*. Please contact us by mail if you did not receive the invitation!
+
+
+In order to use Slack, you may want to follow this [getting started](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide?utm_source=hppromo&utm_medium=promo) article!
+

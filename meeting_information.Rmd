@@ -21,3 +21,16 @@ We will specifically speak about:
 * Organization of the work ([working groups?](./meeting_collaboration.html))
 * On which [platform](./meeting_collaboration.html) will we communicate/collaborate?
 * you may put another topic on the table!!!
+
+
+## Main conclusions of the meeting
+
+1. there are some ways (topic model/semantic analyses) to categorize the type of research made in Latin-America
+1. We need to analyse the phenomenon of helicopter research
+1. we will use Slack as a platform to collaborate
+1. we will need a discussion on how to organize the working groups
+1. we need a clear timeline
+
+## Recording
+
+You may check the meeting recording [here](https://umr.lb.webconf.uni-marburg.de/recording/d6ecc72a07cf5e21b79197fd4331a508e85dc881-1708353896982/video?token=6b2a8b921af77c9e87df05188fc349c9345083981e9a8f9f0cb76a77176da444). I should apologize, I forgot to record about 15 minutes of the meeting... I'll do better for the next ones!
