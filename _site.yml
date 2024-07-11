@@ -23,4 +23,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: Task instructions
+      menu:
+        - text: "Geolocalisation"
+          href: "task_geolocalisation.html"
 output: distill::distill_article
