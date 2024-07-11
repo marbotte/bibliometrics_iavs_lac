@@ -5,6 +5,10 @@ description: |
 output_dir: "docs"
 navbar:
   right:
+    - text: "Task instructions"
+      menu:
+        - text: "Geolocalisation"
+          href: "task_geolocalisation.html"
     - text: "Meetings"
       menu:
         - text: "information"
@@ -23,8 +27,4 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: Task instructions
-      menu:
-        - text: "Geolocalisation"
-          href: "task_geolocalisation.html"
 output: distill::distill_article
