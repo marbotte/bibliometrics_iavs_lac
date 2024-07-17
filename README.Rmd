@@ -1,0 +1,40 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Bibliometrics
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+To render this page, do:
+
+```{r eval=FALSE}
+library(blogdown)
+
+render_site()
+```
+
+To see a preview, do: 
+
+```{r eval=FALSE}
+browseURL("docs/index.html")
+```
+
+To render the README doc:
+
+```{r eval=FALSE}
+library(knitr)
+knit("README.Rmd")
+```
