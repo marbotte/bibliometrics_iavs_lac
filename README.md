@@ -28,3 +28,11 @@ To see a preview, do:
 ``` r
 browseURL("docs/index.html")
 ```
+
+To render the README doc:
+
+
+``` r
+library(knitr)
+knit("README.Rmd")
+```

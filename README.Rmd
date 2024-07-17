@@ -31,3 +31,10 @@ To see a preview, do:
 ```{r eval=FALSE}
 browseURL("docs/index.html")
 ```
+
+To render the README doc:
+
+```{r eval=FALSE}
+library(knitr)
+knit("README.Rmd")
+```
